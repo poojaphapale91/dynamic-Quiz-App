@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    margin-top: 10%;
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+
+body {
+    background-image: url("/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #1c1c3e;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    align-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+    color: #fff001;
+    font-size: 25px;
+}
+
+.leftpane {
+    text-align: left;
+    width: 65%;
+}
+
+.showScore {
+    text-align: left;
+    width: 35%;
+}
+
+.main-div {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+    display: grid;
+    margin-top: 10%;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+    height: 400px;
+}
+
+.inner-div {
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+}
+
+#submit {
+    background-color: rgb(76 98 135);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    /* margin-top: 30px; */
+    display: none;
+    margin: auto;
+    cursor: pointer;
+}
+
+#score {
+    text-align: center;
+    font-weight: bold;
+}
+
+#catgryName {
+    padding-bottom: 20px;
+}
+
+#nextQue {
+    background-color: rgb(76 98 135);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    /* margin-top: 30px; */
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+#submit:hover {
+    background-color: #1c1c3e;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#showScore {
+    background-color: #b4b4d6;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.hideArea {
+    display: none;
+}
